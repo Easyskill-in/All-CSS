@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* header {
+    position: sticky;
+    top: 5px;
+} */
+
+
+.box {
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    background-image: url("./img.png");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    right: 1px;
+    top: 20px;
+    /* left: 400px; */
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* background-image: url("./img.png"); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* position: absolute; */
+    /* left: 400px; */
+    position: absolute;
+    right: 12px;
+    bottom: 11px;
+}
+
+.main {
+    height: 700px;
+    width: 700px;
+    border: 7px solid blue;
+    position: relative;
+}
+
+i {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: #9EB9D4;
+    padding: 10px;
+    font-size: 40px;
+    height: 70px;
+}
+
+header nav li {
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+}
+
+li a {
+    text-decoration: none;
+    color: #3B3C36;
+}
+
+nav,
+i,
+input {
+    float: left;
+}
+
+input {
+    margin-top: 18px;
+    margin-left: 1150px;
+    outline: none;
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+a:hover {
+    color: #3b3c369e;
+}
+
+a:active {
+    font-size: 45px;
+    color: red;
+}
+
+input:focus {
+    outline: 2px solid yellow;
+}
