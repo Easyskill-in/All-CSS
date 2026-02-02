@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+
+}
+
+.box1 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.bo1 {
+    background-color: pink;
+}
+
+.bo2 {
+    background-color: gray;
+}
+
+.bo3 {
+    background-color: orange;
+}
+
+.bo4 {
+    background-color: saddlebrown;
+}
+
+.bo6 {
+    background-color: chartreuse;
+}
+
+.bo5 {
+    background-color: aquamarine;
+}
+
+/* //https: //cssgridgarden.com/ */
