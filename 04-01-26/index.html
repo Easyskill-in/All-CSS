@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: rgb(32, 136, 233);
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            background-color: black;
+            width: 40%;
+            height: 100vh;
+            position: relative;
+            left: 500px;
+            padding: 4px;
+            gap: 4px;
+            font-size: 40px;
+        }
+
+        .box {
+            padding: 3px;
+            height: 100%;
+            width: 100%;
+            background-color: gray;
+        }
+
+        .box0 {
+            background-color: black;
+            grid-column: 1/5;
+            text-align: end;
+            font-size: 40px;
+        }
+
+        .b {
+            grid-column: 4/5;
+        }
+
+        .boxAC {
+            background-color: rgb(175, 0, 0);
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+        .box14 {
+            grid-column: 3/4;
+            grid-row: 2/3;
+        }
+
+        .box15 {
+            grid-row: 3/4;
+        }
+
+        .box16 {
+            grid-row: 4/5;
+        }
+
+        .box17 {
+            grid-row: 5/6;
+        }
+
+        .box18 {
+            grid-row: 5/7;
+        }
+
+        .box10,
+        .box11 {
+            grid-row: 6/7;
+        }
+
+        .box11 {
+            grid-column: 1/3;
+        }
+
+        .box1 {
+            grid-column: 1/2;
+        }
+
+        .d {
+            background-color: gray;
+            grid-row: 2/3;
+        }
+
+        .box:hover {
+            background-color: rgb(88, 88, 88);
+        }
+
+        .boxAC:hover {
+            background-color: red;
+        }
+
+        .box0:hover {
+            background-color: transparent;
+        }
+
+        .box18 {
+            background-color: rgb(18, 96, 213);
+        }
+
+        .box18:hover {
+            background-color: blue;
+        }
+
+        .box:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box box0">0</div>
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box17 b d">/</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+        <div class="box box9">9</div>
+        <div class="box box10">.</div>
+        <div class="box box11">0</div>
+        <div class="box box14 b">+</div>
+        <div class="box box15 b">-</div>
+        <div class="box box16 b">*</div>
+        <div class="box box18 b">=</div>
+        <div class="box boxAC">AC</div>
+
+    </div>
+</body>
+
+</html>
