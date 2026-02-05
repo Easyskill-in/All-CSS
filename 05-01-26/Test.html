@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            /* font-weight: ; */
+        }
+
+        body {
+            /* overflow-x: hidden; */
+        }
+
+        .hero {
+            /* filter: brightness(0.5); */
+            background-image: url("./Flex/img/header-hero.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 70vh;
+        }
+
+        .logo img {
+            height: 50px;
+            padding: 10px;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* width: 200px; */
+            padding: 0 10px;
+            gap: 10px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        li a {
+            text-decoration: none;
+            color: black
+        }
+
+        header {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .text {
+            color: white;
+            width: 200px;
+        }
+
+        .text h3 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .text h1 {
+            font-size: 60px;
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        .text h5 {
+            font-size: 10px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <header>
+            <div class="logo">
+                <img src="./Flex//img/logo-white.svg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="text">
+                <h3>we all love</h3>
+                <h1> nature</h1>
+                <h5>Look deep into nature, and you will
+                    understand everything better.</h5>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
+
+<!-- https://websitedemos.net/love-nature-02/?customizer=true&page-builder=elementor -->

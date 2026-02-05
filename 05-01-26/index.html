@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            height: 100vh;
+            width: 100%;
+            background-color: lightskyblue;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .box {
+            height: 100%;
+            width: 100%;
+            border: 2px solid black;
+            border-radius: 6px;
+            padding: 10px;
+        }
+
+        .box1 {
+            background-color: red;
+        }
+
+        .box2 {
+            background-color: orange;
+            grid-column: 2/5;
+
+        }
+
+        .box3 {
+            background-color: firebrick;
+            grid-column: 5/7;
+            grid-row: 1/4;
+        }
+
+        .box4 {
+            background-color: pink;
+            grid-row: 2/4;
+        }
+
+        .box5 {
+            background-color: saddlebrown;
+            grid-column: 2/4;
+            grid-row: 2/4;
+        }
+
+        .box6 {
+            background-color: salmon;
+            grid-row: 4/5;
+            grid-column: 4/7;
+        }
+
+        .box7 {
+            background-color: violet;
+            grid-row: 4/5;
+            grid-column: 1/4;
+        }
+
+        .sub {
+            height: 80px;
+            width: 80px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+
+        .sub1 {
+            background-color: darkgoldenrod;
+        }
+
+        .sub2 {
+            background-color: wheat;
+        }
+
+        .sub3 {
+            background-color: indianred;
+        }
+
+        .sub4 {
+            background-color: rebeccapurple;
+        }
+
+        .box1 {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box:hover {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .box1:hover {
+            background-image: url("https://plus.unsplash.com/premium_photo-1755534520276-7a75d7b70915?q=80&w=680&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+
+        .box2:hover {
+            background-image: url("https://plus.unsplash.com/premium_photo-1755534520276-7a75d7b70915?q=80&w=680&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+
+        .box3:hover {
+            background-image: url("https://images.unsplash.com/photo-1769008301504-0236118f86cd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="box box1" style="grid-row: 1/4;">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+            <div class="sub sub3"></div>
+            <div class="sub sub4"></div>
+        </div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+    </div>
+    <div class="main">
+        <div class="box box1" style="grid-row: 1/4;">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+            <div class="sub sub3"></div>
+            <div class="sub sub4"></div>
+        </div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+    </div>
+
+
+    <!-- <img src="../03-02-26/images.png" alt="" style="height: 100vh;width: 100%;"> -->
+</body>
+
+</html>
