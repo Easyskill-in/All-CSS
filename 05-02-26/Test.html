@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            /* font-weight: ; */
+        }
+
+        body {
+            /* overflow-x: hidden; */
+        }
+
+        .hero {
+            /* filter: brightness(0.5); */
+            background-image: url("./Flex/img/header-hero.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 70vh;
+
+        }
+
+        .logo img {
+            height: 50px;
+            padding: 10px;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* width: 200px; */
+            padding: 0 10px;
+            gap: 10px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        li a {
+            text-decoration: none;
+            color: black
+        }
+
+        header {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 50%;
+        }
+
+        .hero main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .text {
+            color: white;
+            width: 200px;
+        }
+
+        .text h3 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .text h1 {
+            font-size: 60px;
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        .text h5 {
+            font-size: 10px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .H {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .main-section {
+            background-color: #F2F3F4;
+            height: 100vh;
+        }
+
+        .main-section-cart img {
+            height: 250px;
+        }
+
+        .main-section-cart {
+            background-color: #F5F5F5;
+            min-width: 100px;
+            max-width: 200px;
+            min-height: 200px;
+            max-height: 400px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .main-section-cart h1 {
+            /* text-align: center; */
+            color: rgb(75, 74, 74);
+            font-size: 16px;
+            width: 100%;
+            font-weight: lighter;
+        }
+
+        .main-section-cart p {
+            /* margin-left: 20px; */
+            /* font-size: 20px; */
+            color: #868686;
+            font-size: 12px;
+        }
+
+        .main-section-img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-section main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 20px;
+        }
+
+        .main-section main .main-section-text h1 {
+            font-size: 18px;
+            color: #479260;
+            font-weight: lighter;
+        }
+
+        .Second-section {
+            background-color: #f6f8f5;
+            height: 45vh;
+        }
+
+        .Second-text {
+            padding: 20px;
+        }
+
+        .Second-section .icon img {
+            height: 18px;
+        }
+
+        .Second-section .Second-text h3 {
+            color: rgba(83, 105, 65, 0.89);
+            font-weight: lighter;
+            width: 400px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .Second-section .profile img {
+            height: 28px;
+        }
+
+        .Second-section .profile span {
+            font-size: 10px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Second-section {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="H">
+            <header>
+                <div class="logo">
+                    <img src="./Flex//img/logo-white.svg" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <main>
+            <div class="text">
+                <h3>we all love</h3>
+                <h1> nature</h1>
+                <h5>Look deep into nature, and you will
+                    understand everything better.</h5>
+            </div>
+        </main>
+    </div>
+    <div class="main-section">
+        <main>
+            <div class="main-section-text">
+                <h1>Our Services</h1>
+            </div>
+            <div class="main-section-img">
+                <div class="main-section-cart c1">
+                    <img src="./Flex/img/service-1.jpg" alt="">
+                    <h1 class="title">
+                        Web Design
+
+                    </h1>
+                    <p class="desc">Focus on how you can help and benefit your user. Use simple words so that you don't
+                        confuse people.</p>
+                </div>
+                <div class="main-section-cart c2">
+                    <img src="./Flex/img/service-2.jpg" alt="">
+                    <h1 class="title">Graphic Design
+                    </h1>
+                    <p class="desc">Focus on how you can help and benefit your user. Use simple words so that you don't
+                        confuse people.</p>
+                </div>
+                <div class="main-section-cart c3">
+                    <img src="./Flex/img/service-3.jpg" alt="">
+                    <h1 class="title">Content Creation
+                    </h1>
+                    <p class="desc">Focus on how you can help and benefit your user. Use simple words so that you don't
+                        confuse people.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="Second-section">
+        <span class="icon">
+            <img src="./Flex/img/quotes.svg" alt="">
+        </span>
+        <div class="Second-text">
+            <h3>“Original and with an innate understanding of their customer’s needs, the team at Love Nature are always
+                a pleasure to
+                work with.”</h3>
+        </div>
+        <div class="profile">
+            <img src="./Flex/img/avatar_on_home.png" alt="">
+            <span>Jane Miller</span>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- https://websitedemos.net/love-nature-02/?customizer=true&page-builder=elementor -->
