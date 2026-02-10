@@ -1,0 +1,52 @@
+$color : rgb(56, 142, 203);
+$h : 700px;
+$b : 10px solid black;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: $color;
+    height: $h;
+    width: $h;
+    border: $b;
+
+    h1 {
+        color: orange;
+        font-size: 12px
+    }
+
+    border-radius: 40px;
+
+    p {
+        color: whitesmoke;
+
+        span {
+            color: black;
+        }
+    }
+
+    &:hover {
+        background-color: navy;
+    }
+}
+
+
+
+.box3 {
+    background-color: $color;
+    border: $b;
+}
+
+
+
+// .box1 h1 {
+//     color: orange;
+// }
+
+// .box1 p {
+//     color: whitesmoke;
+// }
