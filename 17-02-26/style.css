@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid black;
+    border-top-color: green;
+    border-bottom-color: yellow;
+    border-right-color: blue;
+    border-left-color: purple;
+    animation: name 7.5s linear infinite;
+}
+
+.ball1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid black;
+    border-top-color: green;
+    border-bottom-color: yellow;
+    border-right-color: blue;
+    border-left-color: purple;
+    animation: name 7.5s linear infinite reverse;
+}
+
+.ball2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 4px solid black;
+    border-top-color: green;
+    border-bottom-color: yellow;
+    border-right-color: blue;
+    border-left-color: purple;
+    animation: name 7.5s linear infinite alternate;
+}
+
+
+
+@keyframes name {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+        background-color: red;
+    }
+
+    20% {
+        background-color: green;
+        transform: translateY(373px) rotate(360deg);
+    }
+
+    40% {
+        background-color: blue;
+        transform: translate(373px, 0px) rotate(0deg);
+    }
+
+    60% {
+        background-color: yellow;
+        transform: translate(373px, 373px) rotate(360deg);
+    }
+
+    80% {
+        background-color: salmon;
+        transform: translate(746px, 0px) rotate(0deg);
+    }
+
+    100% {
+        background-color: pink;
+        transform: translate(846px, 378px) rotate(360deg);
+    }
+}
+
+
+/* .ball:active {
+    transform: translateY(373px) translateX(200px) rotate(360deg) scale(0.5);  
+}
+
+*/
