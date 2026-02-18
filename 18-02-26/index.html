@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+
+        input:focus {
+            outline: none;
+            /* outline: 2px solid lightblue; */
+            /* border-radius: 0px; */
+        }
+
+        /* 
+        h1:nth-child(2) {
+            color: red;
+        } */
+
+        /* 
+       p:nth-of-type(2) {
+            color: orange;
+        } */
+
+        /* p::first-line {
+            color: green;
+        }
+
+        p::first-letter {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+        } */
+
+        .main::selection {
+            background-color: yellow;
+            color: black;
+        }
+
+        p::grammar-error {
+            color: red;
+        }
+
+        a:visited {
+            color: red;
+            text-decoration: none;
+        }
+
+        input:valid {
+            outline: 2px solid green;
+        }
+
+        input:invalid {
+            outline: 2px solid red;
+        }
+    </style>
+</head>
+
+
+<body style="border: 3px solid black;">
+
+    <input type="email">
+    <h1>H</h1>
+    <h1>G</h1>
+    <h1>C</h1>
+
+    <div class="main" style="border: 3px solid yellow;">
+
+        <h1>hello world</h1>
+
+        <h1>Hello H11</h1>
+        <h1>Hello H12</h1>
+        <p>Lorem ipsum dolor sit amet conctetur adipisicing elit. Pariatur, perspiciatis rem quas, aut tempora, ad
+            ratione
+            fugiat neque ipsam alias quod libero animi! Molestias minus magnam doloribus impedit blanditiis nisi?</p>
+        <h1>Hello H13</h1>
+        <h1>Hello H14</h1>
+        <h1>Hello H15</h1>
+    </div>
+
+    <div class="main1" style="border: 3px solid pink;">
+        <h1>Hello main 1</h1>
+        <h1>Hello main 2</h1>
+        <h1>Hello main 3</h1>
+
+        <div class="main2" style="border: 3px solid seagreen;">
+            <h1>m2</h1>
+            <h1>m3</h1>
+            <h1>m4</h1>
+        </div>
+    </div>
+
+    <a href="#">Link</a>
+</body>
+
+</html>
