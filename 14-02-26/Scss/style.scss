@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+
+
+// .box1 {
+//     width: 200px;
+//     height: 200px;
+//     background-color: #3498db;
+//     border: 6px solid #0e4124;
+//     color: red;
+// }
+
+// .box3 {
+//     background-color: gold
+// }
+
+// .box2 {
+//     width: 600px;
+//     background-color: yellow;
+//     color: darkblue
+// }
+
+
+
+
+// .box5 {
+//     @extend .box1;
+//     @extend .box2;
+//     @extend .box3;
+
+// }
+
+// .box1,
+// .box3 {
+
+//     width: 200px;
+//     height: 200px;
+//     background-color: #3498db;
+//     border: 6px solid #0e4124;
+// }
+
+// .box1 {
+//     color: yellow;
+// }
+
+// .box3 {
+
+//     background-color: red;
+// }
+
+// .box3 {
+//     width: 200px;
+//     height: 200px;
+//     background-color: #3498db;
+//     border: 6px solid #0e4124;
+// }
