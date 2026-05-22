@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+header {
+    background-color: red;
+    height: 80vh;
+    background-image: url("./Images/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero-section {
+
+    height: 100%;
+    width: 100%;
+    backdrop-filter: brightness(0.5);
+}
+
+
+.hero-section nav img {
+    width: 175px;
+}
+
+
+
+.hero-section nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero-section nav ul li {
+    list-style: none;
+}
+
+.hero-section nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+
+
+}
+
+
+.hero-section nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 10px; */
+    padding: 20px;
+}
+
+.hero-section .nav-button button {
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 25px;
+    min-width: 150px;
+    background-color: #fb2057;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+
+.hero-section .nav-button button:hover {
+    background-color: #d31d4a;
+}
+
+
+.hero-section main {
+    /* background-color: red; */
+    height: calc(100% - 94px);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.hero-section main h2 {
+    /* color: red; */
+    font-size: 40px;
+}
+
+.hero-section main h1 {
+    /* color: red; */
+    font-size: 80px;
+}
+
+.hero-section main button {
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 35px;
+    min-width: 200px;
+    background-color: #fb2057;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+
+.hero-section main button:hover {
+    background-color: #d31d4a;
+
+}
+
+.main-text-section {
+    background-color: #e7e7e7;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    font-size: 22px;
+    color: #404040;
+}
+
+.main-text-section img {
+    height: 80px;
+}
+
+
+.main-body {
+    background-color: #F5F5F5;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.body-card img {
+    height: 300px;
+}
+
+
+.body-card {
+    justify-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100% - 40px); */
+    gap: 50px;
+    /* background-color: red; */
+}
+
+
+.body-card .card1,
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: red; */
+    width: 500px;
+    height: 600px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+.body-card p {
+    font-size: 18px;
+}
+
+.body-card button {
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 35px;
+    min-width: 200px;
+    background-color: #fb2057;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.body-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.body-text h1 {
+    font-size: 45px;
+}
+
+
+.body-text span {
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    background-color: red;
+}
+
+.bg2 {
+    height: 70vh;
+    background-image: url("./Images/section-bg-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.temp-bg {
+    /* background-color: pink; */
+    height: 100%;
+    width: 100%;
+    backdrop-filter: brightness(0.5);
+
+}
+
+
+.second-main-body {
+    height: 80vh;
+    background-color: red;
+}
