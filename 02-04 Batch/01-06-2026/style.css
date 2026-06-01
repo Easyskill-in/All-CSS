@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* h1:active {
+    color: red;
+} */
+
+/* h1:hover {
+    color: red;
+} */
+
+
+/* p::first-letter {
+    font-size: 40px;
+    color: greenyellow;
+} */
+
+
+/* p::first-line {
+    color: red;
+} */
+/* 
+a:link {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+} */
+
+/* p::selection {
+    background-color: yellow;
+    color: black;
+} */
+
+/* 
+input::placeholder {
+    color: pink;
+    background-color: black;
+    font-family: cursive;
+}
+
+
+input:focus {
+    outline-color: lightblue;
+    backdrop-filter: blur(10px);
+} */
+
+
+/* input:invalid {
+    border: 2px solid red;
+    background-color: #fce8e6;
+}
+
+input:valid {
+    outline-color: green;
+} */
+
+
+h1:hover::after {
+    content: "------";
+    color: red;
+}
+
+h1:active::before {
+    content: "------";
+    color: red;
+}
