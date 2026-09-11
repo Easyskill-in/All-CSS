@@ -1,0 +1,59 @@
+.main {
+    background-color: #7BAFD4;
+}
+
+/* 
+.A {
+    color: #FDEE00;
+} */
+
+
+
+div h1 {
+    color: #FDEE00;
+}
+
+
+/* h1 sup {} */
+
+/* .main h1 sup {
+
+    color: red;
+} */
+
+/* h1 sup{
+    color: red;
+} */
+
+
+
+/* .main h1{
+
+}
+.main a{
+
+}
+.main .a{
+
+}
+
+.main #id{
+
+} */
+
+
+h1 span {
+    color: #FFBF00;
+}
+
+h1 .x {
+    background-color: black;
+}
+
+h1 #h {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+
