@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.ball1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 5px;
+
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    /* position: relative;
+    left: 50px; */
+    /* right: 2px;
+    bottom: 10px; */
+
+    /* left: 600px; */
+
+    /* position: absolute; */
+    /* right: 2px; */
+}
+
+
+nav {
+
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+    margin-top: 70px;
+}
+
+nav ul {
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 100px;
+}
+
+nav a {
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.ball2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 5px;
+
+    position: absolute;
+    /* top: 0px; */
+
+}
+
+.ball3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 5px;
+
+    position: absolute;
+    right: 10px;
+
+}
+
+
+.main {
+    height: 600px;
+    width: 700px;
+    border: 10px solid black;
+    background-color: lightgreen;
+    position: relative;
+}
+
+
+.box {
+    height: 60%;
+    width: 70%;
+    border: 10px solid black;
+    background-color: lightgray;
+
+}
+
+
+body {
+    height: 500vh;
+}
+
+.side {
+    height: 400px;
+    width: 300px;
+    border: 5px solid gainsboro;
+    background: linear-gradient(to right, #52d81d, rgb(60, 255, 0));
+
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+
+    z-index: 999;
+}
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.ball1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 5px;
+    position: relative;
+    left: 160px;
+    top: 112px;
+    z-index: -1;
+}
+
+.ball2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 5px;
+
+
+    position: relative;
+
+    left: 200px;
+    bottom: 100px;
+    top: 10px;
+    right: 10px;
+
+    z-index: 1;
+}
+
+.ball3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 5px;
+
+    position: relative;
+
+    left: 187px;
+    bottom: 58px;
+
+    z-index: 3;
+
+} */
